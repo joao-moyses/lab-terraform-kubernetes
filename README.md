@@ -4,7 +4,7 @@ It is a Lab showing how to create a kubernetes cluster via terraform and aws loa
 
 **First part is to deploy the infrastructure on AWS using terraform files**
 
-To do that you just need to change the variables NAME and CIDR inside file variables.tf in the main folder and apply all ther resources. It is going to create all infrastructure inside AWS.
+To do that you just need to change the variables NAME and CIDR inside file variables.tf in the main folder and apply all ther resources. It is going to create all infrastructure inside AWS. Deploy the files from ./main folder.
 
 
 **Second Part is to Create an IAM OIDC provider for your cluster in order to authenticate your AWS user/role to connect with resources inside kubernetes cluster. As this Lab doesn't have CI/CD implemented yet the deployment part of this Lab will be made via Kubectl, eksctl and AWS cli.**
